@@ -24,9 +24,10 @@
         android:id="@+id/textView8"
         android:layout_width="165dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="cart"
+        android:layout_marginTop="28dp"
+        android:text="Cart"
         android:textSize="30dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,14 +37,14 @@
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:weightSum="10"
         android:orientation="horizontal"
+        android:weightSum="10"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:layout_constraintVertical_bias="0.101">
+        app:layout_constraintVertical_bias="0.146">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -59,7 +60,7 @@
 
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="249dp"
             android:layout_height="wrap_content"
             android:layout_weight="8"
             android:orientation="vertical">
@@ -67,6 +68,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
                 android:text="Title"
                 android:textSize="20dp" />
 
@@ -80,8 +82,92 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="price"
+                android:textColor="#cb2726"
                 android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="49dp"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:layout_width="53dp"
+                    android:layout_height="64dp"
+                    android:hint="no"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="+"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
         </LinearLayout>
 
+
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="403dp"
+        android:layout_height="139dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:layout_marginLeft="35dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:hint="Total price"
+            android:layout_marginLeft="35dp"
+            android:textSize="35dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="100dp"
+            android:drawableRight="@drawable/arrow"
+            android:text="Free Standard Delivery"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <Button
+            android:layout_width="315dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/icon"
+            android:background="@drawable/button"
+            android:text="PROCEED TO CHECKOUT"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
