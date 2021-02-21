@@ -3,9 +3,14 @@ package com.sheela.neonproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 public class CartActivity extends AppCompatActivity {
-
+   EditText etquantity, etotalPrice;
+   TextView txtcart;
+    Button btnincrement, btndecrement, btnCheckout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
