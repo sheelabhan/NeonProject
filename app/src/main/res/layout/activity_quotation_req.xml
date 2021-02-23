@@ -114,12 +114,12 @@
 
                         <Spinner
                             android:id="@+id/spinner"
-                            android:layout_marginRight="10dp"
+                            android:layout_width="266dp"
 
-                            android:layout_marginLeft="10dp"
-                            android:layout_width="match_parent"
                             android:layout_height="50dp"
-                            android:layout_gravity="center" />
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp" />
                     </androidx.cardview.widget.CardView>
 
 
@@ -380,7 +380,7 @@
                     android:background="#D3D3D3" />
 
                 <Button
-
+                    android:id="@+id/btnquotation"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
