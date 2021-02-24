@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CategoriesActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="cursive"
+                android:text="Foreveryng"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/ic_baseline_notifications_24" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="373dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                rectangle="40dp"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/arrow"
+                app:cardBackgroundColor="#D3D3D3">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_baseline_search_24" />
+
+
+                <TextView
+                    android:layout_width="313dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+
+                    android:text="Search products, brands etc."
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:layout_width="190dp"
+                    android:layout_height="71dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="3dip"
+                    android:layout_weight="0.5"
+                    android:background="#DC143C"
+                    android:text="categories"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:layout_width="203dp"
+                    android:layout_height="73dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="3dip"
+                    android:layout_weight="0.5"
+                    android:text="brands"
+
+
+                    android:textColor="#DC143C" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="129dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal"
+                android:scrollbars="horizontal"
+                app:fastScrollEnabled="false" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview1"
+                android:layout_width="313dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal"
+                android:scrollbars="horizontal"
+                app:fastScrollEnabled="false" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+

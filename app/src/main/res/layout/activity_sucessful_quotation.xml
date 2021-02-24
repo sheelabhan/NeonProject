@@ -9,39 +9,40 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="627dp"
+        android:layout_height="wrap_content"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintHorizontal_bias="0.0"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.038">
+        app:layout_constraintVertical_bias="0.079">
 
         <LinearLayout
-            android:layout_width="411dp"
-            android:layout_height="400dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="110dp"
             android:orientation="vertical"
             android:padding="10dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:src="@drawable/request" />
-        </LinearLayout>
+            </LinearLayout>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="25dp"
-               android:textColor="#000000"
                 android:gravity="center"
                 android:text="Quotation Requested"
+                android:textColor="#000000"
                 android:textSize="25sp" />
 
             <LinearLayout
@@ -51,26 +52,25 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="308dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
 
                     android:layout_marginLeft="10dp"
                     android:gravity="center"
-                    android:text="Your request for quotation was placed successfully.To get notified, check
-                                       your notifications tab."
+                    android:text="Your request for quotation was placed successfully.To get notified, checkyour notifications tab."
                     android:textSize="15sp" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:layout_marginLeft="110dp">
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="30dp">
 
                 <Button
                     android:id="@+id/btnhome"
-                    android:layout_width="183dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
 
                     android:background="@drawable/button"

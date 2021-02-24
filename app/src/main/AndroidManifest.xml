@@ -9,17 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".sucessfulQuotationActivity">
+        <activity android:name=".CategoriesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".quotationReqActivity">
-
-        </activity>
-        <activity android:name=".CartActivity"></activity>
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".sucessfulQuotationActivity"></activity>
+        <activity android:name=".quotationReqActivity" />
+        <activity android:name=".CartActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".MainActivity" />
     </application>
