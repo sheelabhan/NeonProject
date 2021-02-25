@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".CartImageActivity"></activity>
         <activity android:name=".CategoriesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ContactActivity" />
-        <activity android:name=".sucessfulQuotationActivity"></activity>
+        <activity android:name=".sucessfulQuotationActivity" />
         <activity android:name=".quotationReqActivity" />
         <activity android:name=".CartActivity" />
         <activity android:name=".SignUpActivity" />

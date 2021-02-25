@@ -91,6 +91,7 @@
 
 
                 <Button
+                    android:id="@+id/btncategories"
                     android:layout_width="190dp"
                     android:layout_height="71dp"
                     android:layout_gravity="center"
@@ -102,6 +103,7 @@
                     android:textColor="#ffffff" />
 
                 <Button
+                    android:id="@+id/btnbrands"
                     android:layout_width="203dp"
                     android:layout_height="73dp"
                     android:layout_gravity="center"
@@ -135,7 +137,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerview1"
                 android:layout_width="313dp"
-                android:layout_height="200dp"
+                android:layout_height="202dp"
                 android:layout_marginTop="1dp"
                 android:orientation="horizontal"
                 android:scrollbars="horizontal"
