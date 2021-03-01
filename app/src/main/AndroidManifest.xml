@@ -9,14 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CartImageActivity"></activity>
-        <activity android:name=".CategoriesActivity">
+        <activity android:name=".SignInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CategoriesImageActivity">
+
+        </activity>
+        <activity android:name=".CartImageActivity" />
+        <activity android:name=".CategoriesActivity"></activity>
         <activity android:name=".ContactActivity" />
         <activity android:name=".sucessfulQuotationActivity" />
         <activity android:name=".quotationReqActivity" />
