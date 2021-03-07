@@ -9,18 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SignInActivity">
+        <activity android:name=".CogentHealthActivity"></activity>
+        <activity android:name=".SavedAccountActivity" />
+        <activity android:name=".BankTransferActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".CategoriesImageActivity">
 
         </activity>
+        <activity android:name=".imgActivity" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".CategoriesImageActivity" />
         <activity android:name=".CartImageActivity" />
-        <activity android:name=".CategoriesActivity"></activity>
+        <activity android:name=".CategoriesActivity" />
         <activity android:name=".ContactActivity" />
         <activity android:name=".sucessfulQuotationActivity" />
         <activity android:name=".quotationReqActivity" />

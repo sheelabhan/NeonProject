@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">NeonProject</string>
     <string name="txt_login"><u> Loginin</u></string>
+
 </resources>
